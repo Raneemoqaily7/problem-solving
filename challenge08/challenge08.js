@@ -137,8 +137,10 @@ arr.forEach(student =>{
   let outputCourse =""
   courses.forEach(el=>{
 if(el.Students.includes(student)){
-  outputCourse= el.course
+   outputCourse= el.course
 }
+
+
   })
  result.push( {
     Student: student,
