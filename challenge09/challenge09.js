@@ -36,10 +36,15 @@ const arrInc = (arr) => {
 const roundDecimals = (arr) => {
     let result = [];
 arr.forEach(element => {
-  result.push(Math.round(element))
+  result.push()
 });
   return result;
 }
+
+
+
+
+
 
 // 3) ---------------------
 // 
